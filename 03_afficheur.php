@@ -24,5 +24,3 @@ while ($i < $argc) {
 
     $i++;
 }
-
-//var_dump($argv, $argc);

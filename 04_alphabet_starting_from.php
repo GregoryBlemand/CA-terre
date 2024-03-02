@@ -27,6 +27,7 @@ if ($argc > 2) {
 $startingLetter = strtolower($argv[1]);
 if (strlen($startingLetter) > 1) {
     echo "L'argument est trop long... une seule lettre suffit\n";
+    exit;
 }
 
 $alphabetLength = 26;
