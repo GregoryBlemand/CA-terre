@@ -35,10 +35,10 @@ if ($argc > 2) {
     exit;
 }
 
-$argument = $argv[1];
-if (preg_match('/\D/', $argument) && !preg_match('-', $argument)) {
+$argument = intval($argv[1]);
+if (preg_match('/\D/', $argument) && !preg_match('/-/', $argument)) {
     print "Tu ne me la mettras pas à l’envers.\n";
     exit;
 }
 
-print empty($argument % 2) ? "pair\n" : "impair\n";
+print 0 === $argument % 2 ? "pair\n" : "impair\n";

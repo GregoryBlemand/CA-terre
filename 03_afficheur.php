@@ -16,6 +16,11 @@
 
 $i = 0;
 
+if ($argc == 1) {
+    print "Erreur : Ben ? t'as rien à dire ?.\n";
+    exit;
+}
+
 while ($i < $argc) {
 
     if (0 !== $i) {
