@@ -36,7 +36,7 @@ if ($argc > 2) {
 }
 
 $argument = $argv[1];
-if (preg_match('/\D/', $argument) && !str_contains($argument, '-')) {
+if (preg_match('/\D/', $argument) && !preg_match('-', $argument)) {
     print "Tu ne me la mettras pas à l’envers.\n";
     exit;
 }
