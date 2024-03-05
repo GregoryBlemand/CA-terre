@@ -22,7 +22,7 @@ if ($argc !== 2) {
 }
 
 if (!isNumeric($argv[1])) {
-    print "Le paramètre à passer doit un nombre entier positif";
+    print "Le paramètre à passer doit être un nombre entier positif";
     exit;
 }
 
