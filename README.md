@@ -14,6 +14,7 @@ Epreuve de la terre - coding accelerator
  10) Racine carré du nombre
  11) Nombre premier
  12) Horloge 24 to 12
- 13) Trouver la suisse 
- 14) Trié ou non
- 15) Terre OK
+ 13) Horloge 12 to 24
+ 14) Trouver la suisse 
+ 15) Trié ou non
+ 16) Terre OK
