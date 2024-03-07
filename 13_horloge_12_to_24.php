@@ -19,7 +19,7 @@ if ($argc !== 2) {
     } else {
         print "Erreur : trop d'arguments !\n";
     }
-    print "On attend une heure sous la forme 13:38 .\n";
+    print "On attend une heure sous la forme 05:38PM .\n";
     exit;
 }
 
